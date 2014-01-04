@@ -1,0 +1,88 @@
+; LANGUAGE SUBSTITUTIONS
+; Courtesy of ~MathieuStng | http://mathieustng.deviantart.com/
+
+[Variables]
+
+; === Weekdays ===
+Monday=Lundi
+Tuesday=Mardi
+Wednesday=Mercredi
+Thursday=Jeudi
+Friday=Vendredi
+Saturday=Samedi
+Sunday=Dimanche
+
+; === Months ===
+January=Janvier
+February=Février
+March=Mars
+April=Avril
+May=Mai
+June=Juin
+July=Juillet
+August=Août
+September=Septembre
+October=Octobre
+November=Novembre
+December=Décembre
+
+; === Chronophage Labels ===
+year=ANNÉE
+month=MOIS
+week=SEMAINE
+day=JOUR
+
+; ===== Weather skins =====
+Currently=Actuellement
+Humidity=Humidité
+Wind=Vent
+Visibility=Visibilité
+
+Light=Léger
+Heavy=Puissant
+Partly=Partiellement
+Mostly=Majoritairement
+Low=Bas
+Small=Petit
+Drifting=Déplace
+Blowing=Souffle
+Freezing=Gel
+Scattered=Éparpillé
+Widespread=Répandu
+
+Chance_of=Possibilité
+Chance_of_a=Possibilité de
+and=et
+Sunny=Ensoleillé
+Clear=Dégagé
+Overcast=Couvert
+Cloudy=Nuageux
+Clouds=Nuages
+
+Rain=Pluie
+Drizzle=Bruine
+Showers=Averses
+Thunderstorms=Orages
+Thunderstorm=Orage
+Hail=Grêle
+
+Snow=Neige
+Ice=Glace
+Flurries=Flocons
+Sleet=Verglas
+Crystals=Cristaux
+Grains=Flocons
+Pellets=Grêlons
+
+Mist=Brume
+Fog=Brouillard
+Smoke=Fumée
+Volcanic_Ash=Cendres volcaniques
+Dust=Poussière
+Sand=Sable
+Haze=Brouillard
+Spray=Spray
+Whirls=Tourbillons
+Sandstorm=Tempête de sable
+
+Unknown=Inconnuwhirls

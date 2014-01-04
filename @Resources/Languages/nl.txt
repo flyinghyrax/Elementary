@@ -1,0 +1,105 @@
+; LANGUAGE SUBSTITUTIONS | Dutch
+; Courtesy of ~timpiee | http://timpieee.deviantart.com/
+
+
+[Variables]
+
+; === Weekdays ===
+Monday=Maandag
+Tuesday=Dinsdag
+Wednesday=Woensdag
+Thursday=Donderdag
+Friday=Vrijdag
+Saturday=Zaterdag
+Sunday=Zondag
+
+; === Months ===
+January=Januari
+February=Februari
+March=Maart
+April=April
+May=Mei
+June=Juni
+July=Juli
+August=Augustus
+September=September
+October=October
+November=November
+December=December
+
+; === Chronophage Labels ===
+year=JAAR
+month=MAAND
+week=WEEK
+day=DAG
+
+; ===== Weather skins =====
+; Current conditions tooltip
+
+Currently=Nu
+Humidity=Luchtvochtigheid
+Wind=Wind
+Visibility=Zichtbaarheid
+North=N
+NorthEast=NO
+East=E
+SouthEast=ZE
+South=Z
+SouthWest=ZW
+West=W
+NorthWest=NW
+Variable=variabel
+
+; Modifiers
+
+Light=Ligt
+Heavy=Zwaar
+Partly=Gedeeltelijk
+Mostly=Voornamelijk
+Low=Laag
+Small=Klein
+Drifting=Driften
+Blowing=Waaien
+Freezing=Vriezen
+Scattered=Verspreid
+Widespread=wijdverspreid
+
+Chance_of=Kans op
+Chance_of_a=Kans op een
+and=&
+
+; Conditions
+
+Sunny=Zonnig
+Clear=Helder
+Overcast=Bewolking
+Cloudy=Bewolkt
+Clouds=Wolken
+
+Rain=Regen
+Drizzle=Motregen
+Showers=Gietregen
+Thunderstorms=Bliksemstormen
+Thunderstorm=Bliksemstorm
+Hail=Hagel
+
+Snow=Sneeuw
+Ice=Ijs
+Flurries=Regen
+Sleet=Natte Sneeuw
+Crystals=Hagel
+Grains=Hagel
+Pellets=Hagel
+
+Mist=Mist
+Fog=Vocht
+Smoke=Rook
+Volcanic_Ash=Volkanische As
+Dust=Stof
+Sand=Zand
+Haze=Waas
+Spray=Regen
+Whirls=Wervelstorm
+Sandstorm=Zandstorm
+
+Unknown=Niet bekend

@@ -1,0 +1,139 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Candara;}{\f1\fnil\fcharset0 Calibri;}{\f2\fnil\fcharset186 Calibri;}{\f3\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green77\blue187;\red0\green0\blue0;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\sl276\slmult1\cf1\lang9\f0\fs32 [About This]\cf2\fs36\par
+\f1\fs22 Elementary 1.5\par
+Simple, clean Rainmeter skins.  Elementary currently includes 10 skins:\par
+- An analog clock\par
+- Date skin (Original and "European" variants)\par
+- Time skin (Original and AM/PM variants)\par
+- Weather (Celsius and Fahrenheit variants)\par
+- System (Linear and stacked variants)\par
+- Chronophage (ornamental time-tracking skin)\par
+\par
+\cf1\f0\fs32 [License Information]\cf2\fs36\par
+\f1\fs22 This work is licensed under the Creative Commons Attribution Non-Commercail Share-Alike 3.0\par
+ \cf0{\field{\*\fldinst{HYPERLINK "http://creativecommons.org/licenses/by-nc-sa/3.0/"}}{\fldrslt{\ul\cf3 http://creativecommons.org/licenses/by-nc-sa/3.0/}}}\cf2\f1\fs22  \par
+Feel free to modify and redistribute these skins, on the condition that you link back to me, don't make any money off of it, and use this same license.\par
+\par
+\cf1\f0\fs32 [How to Customize These Skins - Settings.txt]\cf2\f1\fs22\par
+     Elementary's settings/user preferences are in the file "\b\i ...\\Skins\\Elementary\\@Resources\\Settings.txt\b0\i0 "; open this file in any text editor to change your preferences.  You can also right click and Elementary skin, and in the context menu select "Elementary > Settings.ini" to quickly open the file in Windows Notepad.\par
+     The settings are given in Key=Value pairs; to change a setting, modify the portion after the "=" sign, save the file, and refresh any open Elementary skins.\par
+\b font\b0  & \b  font2\b0  \par
+...the primary and secondary fonts used by the skins.  You can use any installed font, just know that the positions of the skin elements are optimized for the two default fonts.  Changing fonts \i will\i0  throw off positioning and you will have to edit the skin .inis to alter that.\par
+\b color\b0  \par
+...the color of the skins, given in Decimal or Hexadecimal format.  The default is 255,255,255,180; for a dark skins, try 0,0,0,200 and play around with it from there.  (See the "Helpful Links and Tools" section for a link to more information on color codes in Rainmeter.)\par
+\b style\b0  \par
+...sets the attributes of the text in the skins.  Valid values are "NORMAL," BOLD," "ITALIC," and "BOLDITALIC."\par
+\b scalar \par
+\b0 ...modifies the size of the anolog clock.  Use a larger number to increase the size, or a smaller number to decrease it.  I would recommend staying between 1.5 and 5.0.\par
+\b location \par
+\b0 ...where you want weather information for.  This can be a US or Canadian zip code, a CITY,STATE pair, a CITY,COUNTRY pair, a 3 or 4 lettter airport code, or a latitude and longitude (LAT,LON).  What you put here must be URL friendly, so either leave out/replace the spaces, or encode your location and use the encoded value (i.e. "New York, New York" becomes "New%20York%2C%20New%20York").\par
+\b language\b0  \par
+...the two letter ISO 639-1 code for your preferred language.  Languages currently included are: \par
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl276\slmult1 English (\b en\b0 , the default) \par
+{\pntext\f3\'B7\tab}Tamazight/\u11612?\u11568?\u11598?\u11568?\u11619?\u11593?\u11606?\u11612?  (\b ber\b0 )\par
+{\pntext\f3\'B7\tab}German/Deutsch (\b de\b0 )\par
+{\pntext\f3\'B7\tab}Esperanto (\b eo\b0 )\par
+{\pntext\f3\'B7\tab}Spanish/Espa\'f1ol (\b es\b0 )\par
+{\pntext\f3\'B7\tab}French/Fran\'e7ais (\b fr\b0 )\par
+{\pntext\f3\'B7\tab}West Frisian/Frysk (\b fy\b0 )\par
+{\pntext\f3\'B7\tab}Italian/italiano (\b it\b0 )\par
+{\pntext\f3\'B7\tab}Lithuanian/lietuvi\f2\'f8 kalba\f1  (\b lt\b0 )\par
+{\pntext\f3\'B7\tab}Dutch/Nederlands (\b nl\b0 )\par
+{\pntext\f3\'B7\tab}Portuguese/portugu\'eas (\b pt\b0 )\par
+\pard\sl276\slmult1 See the next section ("Creating your own Translation file") for instructions on translating the skins to whatever language you would like.  \par
+\cf1\f0\fs32 *\cf2\f1\fs22 Note that the default fonts might not support the special characters for some languages - in such cases you will need to change the font to one that includes the correct characters.  (For instance, "Ebrima" for Tamazight)  Also, between the way that the Weather Underground feed delivers information and the way that I coded the skins, some phrases do not translate correctly in other languages (the order is inverted).  I'll have to think about a way to fix this... but in the meantime, the translators did the best they could.\par
+\b drive\b0  \par
+...should be the letter of the hard drive you wish to monitor with the system skin, given without the ":" or "\\" characters.\par
+\b hour \par
+\b0 ...is the format code for the Hour in the time skins.  For 12 hour format, use "\b %#I\b0 "; for 24 hour format, use "\b %#H\b0 ".  To add leading zeros, remove the "#" sign (i.e., %I instead of %#I will give you "08" instead of "8").\par
+\par
+\cf1\f0\fs32 [Creating Your Own Translation File - template.txt]\cf2\par
+\f1\fs22      If Elementary does not have a translation file already included for your language, it is easy to make your own.  First, open the file "...\\Skins\\Elementary\\@Resources\\Langauges\\template.txt" in Windows Notepad or another plain text editor.  The file should say "; LANGUAGE SUBSTITUTIONS" at the top and have a lists of English words followed by "=" signs.  Simply put, whatever word you fill in after the "=" sign will replace the English word in the skin.  So just fill in the list, putting the word in your language after the "=".  (For examples, you can look at the other files in the "...\\@Resources\\Languages\\" folder.)\par
+     When you're done, simply save the file with a new name ("Save as...").  You can call the file whatever you want, but keep it in the "...\\@Resources\\Languages\\" folder.  Then, in the Settings.txt file, simply change the "langauge" value to whatever you named your new translations file.  (If you named your file "MyLanguage.txt", in Settings.txt the Key=Value would be "language=MyLanguage".)\par
+     That's it!  If you would like your new translations file included in the Elementary skin package, just contact me on DeviantArt or by email (see below).\par
+\par
+\cf1\f0\fs32 *\cf2\f1\fs22 Many thanks to the folks who have provided translations so far!\par
+~timpieee | \cf0{\field{\*\fldinst{HYPERLINK "http://timpieee.deviantart.com/"}}{\fldrslt{\ul\cf3 http://timpieee.deviantart.com/}}}\cf2\f1\fs22  | Dutch\par
+~MathieuStng | \cf0{\field{\*\fldinst{HYPERLINK "http://mathieustng.deviantart.com/"}}{\fldrslt{\ul\cf3 http://mathieustng.deviantart.com/}}}\cf2\f1\fs22  | French\par
+~Blugi | \cf0{\field{\*\fldinst{HYPERLINK "http://blugi.deviantart.com/"}}{\fldrslt{\ul\cf3 http://blugi.deviantart.com/}}}\cf2\f1\fs22  | Spanish\par
+~JackDMF | \cf0{\field{\*\fldinst{HYPERLINK "http://jackdmf.deviantart.com/"}}{\fldrslt{\ul\cf3 http://jackdmf.deviantart.com/}}}\cf2\f1\fs22  | German\par
+~Ya2sine | \cf0{\field{\*\fldinst{HYPERLINK "http://ya2sine.deviantart.com/"}}{\fldrslt{\ul\cf3 http://ya2sine.deviantart.com/}}}\cf2\f1\fs22  | Tamazight / Berber\par
+wmw301 | ? | Portuguese\par
+Hendrik | ? | West Frisian\par
+Laurynas | ? | Lithuanian\par
+~takethis1988 | \cf0{\field{\*\fldinst{HYPERLINK "http://takethis1988.deviantart.com/"}}{\fldrslt{\ul\cf3 http://takethis1988.deviantart.com/}}}\cf2\f1\fs22  | Italian\par
+TheAwesomeAmerican | {\field{\*\fldinst{HYPERLINK "http://theawesomeamerican.deviantart.com/"}}{\fldrslt{\ul\cf3 http://theawesomeamerican.deviantart.com/}}}\f1\fs22  | Esperanto\par
+\par
+\cf1\f0\fs32 [Helpful Links & Tools]\cf2\par
+\f1\fs22 Here are some links to helpful resources if you are new to settings like those described above:\par
+\b Rainmeter Documentation on Fonts:\b0\par
+\cf0{\field{\*\fldinst{HYPERLINK "http://rainmeter.net/RainCMS/?q=Meters_Fonts"}}{\fldrslt{\ul\cf3 http://rainmeter.net/RainCMS/?q=Meters_Fonts}}}\cf2\f1\fs22\par
+\b Rainmeter Documentation on Colors:\b0\par
+\cf0{\field{\*\fldinst{HYPERLINK "http://rainmeter.net/RainCMS/?q=Meters_ColorCodes"}}{\fldrslt{\ul\cf3 http://rainmeter.net/RainCMS/?q=Meters_ColorCodes}}}\cf2\f1\fs22\par
+\b Online URL Encoder/Decoder:\b0\par
+\cf0{\field{\*\fldinst{HYPERLINK "http://meyerweb.com/eric/tools/dencoder/"}}{\fldrslt{\ul\cf3 http://meyerweb.com/eric/tools/dencoder/}}}\cf2\f1\fs22\par
+\b Rainfont Utility by JSMorley:\b0\par
+\cf0{\field{\*\fldinst{HYPERLINK "http://rainmeter.net/forum/viewtopic.php?f=18&t=6103"}}{\fldrslt{\ul\cf3 http://rainmeter.net/forum/viewtopic.php?f=18&t=6103}}}\cf2\f1\fs22\par
+\b List of ISO 639-1 langauge codes:\par
+\cf0\b0{\field{\*\fldinst{HYPERLINK "https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes"}}{\fldrslt{\ul\cf3 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes}}}\cf2\f1\fs22\par
+\par
+\cf1\f0\fs32 [Contact the Author]\cf2\f1\fs22\par
+Feel free to contact me if you have questions or suggestions:\par
+My DeviantART page:\par
+\cf0{\field{\*\fldinst{HYPERLINK "http://flyinghyrax.deviantart.com/"}}{\fldrslt{\ul\cf3 http://flyinghyrax.deviantart.com/}}}\cf2\f1\fs22\par
+The Rainmeter forums (FlyingHyrax)\par
+\cf0{\field{\*\fldinst{HYPERLINK "http://www.rainmeter.net/forum"}}{\fldrslt{\ul\cf3 http://www.rainmeter.net/forum}}}\cf2\f1\fs22\par
+Email: theflyinghyrax@gmail.com\par
+\par
+\cf1\f0\fs32 [The Almighty Changelog]\par
+\cf2\b\f1\fs22 8/29/12 (Version 1.5.1)\par
+\b0 - Fixed the "23th" bug in date skin\b\par
+6/26/2012 (Version 1.5.0)\par
+- \b0 Fixed typo in link to WeatherUnderground in eWeather_f.ini\b\par
+\b0 - Reformatted skin folder for Rainmeter 2.3 structure changes (@Resources)\par
+- Skins updated to reflect deprecation of "!Execute" and "!Rainmeter" in bangs\par
+- Added "Languages" folder and "language" variable in Settings.txt \par
+(files for English, French, German, Dutch, Tamazight, Portuguese, and Spanish; and a template)\par
+- New .rmskin format\par
+\b 9/26/2011 (Version 1.4.3)\b0\par
+- Skin .ini files revised to use Meter Styles\par
+- Weather translations are now case \i in\i0 sensitive\par
+- Clicking "via Weather.com" now links you to the location which you set in Settings.txt, not a link parsed from the current conditions feed.\f0\fs32\par
+\b\f1\fs22 9/17/2011 (Version 1.4.2)\b0\par
+- Tweaked weather substitution strings ("chance of a" before "chance of")\par
+- Advanced day of week number in Chronophage skin by 1 (Sunday is now day 1, not day 0)\par
+- Added language subs for Wind direction\par
+- Fixed current condtions tooltip in eWeather_c.ini to display wind speed it Kilometers/hour\par
+- In Readme.ini dummy skin, changed !DeacitvateConfig to !RainmeterDeactivateConfig so it will work with Rainmeter versions below 2.1\par
+- Updated skin metadata to comply with Rainmeter 2.1 changes\par
+- All .ini files are now DOS/Windows ANSI character encoded\f0\fs36\par
+\b\f1\fs22 8/11/2011 (Version 1.4.1)\par
+\b0 - Changes weather XML source to Weather Underground\par
+- Split Variables and Translations into two separate files\par
+- Added weather skin language subs\par
+- Added hour format variable\par
+- Variables.inc is now Settings.txt!\b\par
+7/22/2011 (Version 1.4)\par
+\b0 - Change weather xml source to Google\par
+- Updated Variables.inc (removed annotations, added "Currently" and "scalar" variables, added variables for Google weather skins)\par
+- Corrected an error in the main Date skin\par
+- Removed \i old\i0  version of Date skin, and added new Date variant with the date before the month\par
+- Century Gothic font file is no longer included in Elementary's .rmskin package, for legal reasons\par
+\b 4/18/2011 (Version 1.3)\par
+\b0 - Changed the alignment of the first string in the time and date skins - the hour and weekday are now aligned right instead of left\par
+- Added an AM/PM variant of the time/clock skin\par
+- In the weather skin, changed the forecast font from Futurist FW to Century Gothic (more compact and readable)\par
+\b 3/16/2011 (Version 1.2)\par
+\b0 - Tidied up code considerably\par
+- re-sized Date skin text based on Phi/golden ratio, like the time skin was already\par
+- Added a weather skin!  Click the word "currently" to switch views and show a three-day forecast\par
+- Altered system skins slightly\par
+- Added a section of language substitutions to the Variables.inc file. You should now be able to set the days of week and months to the equivalent words in your language without adding anything to any .ini files.\par
+- Added analog clock\par
+\b 1/3/2011 (Version 1.1)\par
+\b0 - System monitor skins are no longer spaced relatively\par
+- Made DynamicWindowSize true for the clock skin, which ought to stop the seconds from disappearing\par
+- Added an Elementary theme that can be launched on installation\par
+}
+ 

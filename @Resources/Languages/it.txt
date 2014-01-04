@@ -1,0 +1,104 @@
+; LANGUAGE SUBSTITUTIONS
+; Courtesy of ~Takethis1988 | http://takethis1988.deviantart.com/
+
+[Variables]
+
+; === Weekdays ===
+Monday=Lunedì
+Tuesday=Martedì
+Wednesday=Mercoledì
+Thursday=Giovedì
+Friday=Venerdì
+Saturday=Sabato
+Sunday=Domenica
+
+; === Months ===
+January=Gennaio
+February=Febbraio
+March=Marzo
+April=Aprile
+May=Maggio
+June=Giugno
+July=Luglio
+August=Agosto
+September=Settembre
+October=Ottobre
+November=Novembre
+December=Dicembre
+
+; === Chronophage Labels ===
+year=ANNO
+month=MESE
+week=SETTIMANA
+day=GIORNO
+
+; ===== Weather skins =====
+; Current conditions tooltip
+
+Currently=Adesso
+Humidity=Umidità
+Wind=Vento
+Visibility=Visibilità
+North=N
+NorthEast=NE
+East=E
+SouthEast=SE
+South=S
+SouthWest=SO
+West=O
+NorthWest=NO
+Variable=Variabile
+
+; Modifiers
+
+Light=Lieve
+Heavy=Intense
+Partly=Parzialmente
+Mostly=Prevalentemente
+Low=Basse
+Small=Piccolo
+Drifting=Veloci
+Blowing=Ventoso
+Freezing=Gelido
+Scattered=Sparse
+Widespread=Estese
+
+Chance_of=Possibile
+Chance_of_a=Possibilità di
+and=e
+
+; Conditions
+
+Sunny=Soleggiato
+Clear=Terso
+Overcast=Coperto
+Cloudy=Nuvoloso
+Clouds=Nuvole
+
+Rain=Pioggia
+Drizzle=Pioggerella
+Showers=Rovesci
+Thunderstorms=Temporale
+Thunderstorm=Temporali
+Hail=Grandinate
+
+Snow=Neve
+Ice=Ghiaccio
+Flurries=Imbiancata
+Sleet=Acquaneve
+Crystals=Cristalli
+Grains=Nevischio
+Pellets=Pioggia gelata
+
+Mist=Foschia
+Fog=Nebbia
+Smoke=Fumo
+Volcanic_Ash=Cenere vulcanica
+Dust=Polvere
+Sand=Sabbia
+Haze=Caligine
+Spray=Nebbiolina
+Whirls=Mulinelli
+Sandstorm=Tempesta di sabbia
+
+Unknown=np

@@ -1,0 +1,104 @@
+; LANGUAGE SUBSTITUTIONS
+; Courtesy of Hendrik Tabak
+
+[Variables]
+
+; === Weekdays ===
+Monday=Moandei
+Tuesday=Tiisdei
+Wednesday=Woansdei
+Thursday=Tongersdei
+Friday=Freed
+Saturday=Sneon
+Sunday=Snein
+
+; === Months ===
+January=Jannewaris
+February=Febrewaris
+March=Maart
+April=April
+May=Maaie
+June=Juny
+July=July
+August=Augustus
+September=Septimber
+October=Oktober
+November=Novimber
+December=Decimber
+
+; === Chronophage Labels ===
+year=JIER
+month=MOANNE
+week=WIKE
+day=DEI
+
+; ===== Weather skins =====
+; Current conditions tooltip
+
+Currently=No
+Humidity=Loftfochtigens
+Wind=Wyn
+Visibility=Sichtberens
+North=N
+NorthEast=NE
+East=E
+SouthEast=ZE
+South=Z
+SouthWest=ZW
+West=W
+NorthWest=NW
+Variable=Fariabel
+
+; Modifiers
+
+Light=Ljocht
+Heavy=Swier
+Partly=Foar in diel
+Mostly=Benammentlik
+Low=Leech
+Small=Lyts
+Drifting=Driuwen
+Blowing=Waaie
+Freezing=Frieze
+Scattered=Ferspraat
+Widespread=Wiid útinoar
+
+Chance_of=Kâns op
+Chance_of_a=Kâns op in
+and=&
+
+; Conditions
+
+Sunny=Sinnich
+Clear=Helder
+Overcast=Bewolking
+Cloudy=Berûn
+Clouds=Wolken
+
+Rain=Rein
+Drizzle=Motrein
+Showers=Klets wetter
+Thunderstorms=Bliksemstoarmen
+Thunderstorm=Bliksemstoarm
+Hail=Hagel
+
+Snow=Snie
+Ice=Iis
+Flurries=Rein
+Sleet=Wiete Snie
+Crystals=Hagel
+Grains=Hagel
+Pellets=Hagel
+
+Mist=Mist
+Fog=Focht
+Smoke=Reek
+Volcanic_Ash=Fulkanysk Jiske
+Dust=Stof
+Sand=Sân
+Haze=Waas
+Spray=Rein
+Whirls=Sykloan
+Sandstorm=Sânstoarm
+
+Unknown=Unbekend 

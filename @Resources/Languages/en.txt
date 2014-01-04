@@ -1,0 +1,102 @@
+; LANGUAGE SUBSTITUTIONS | English
+
+[Variables]
+
+; === Weekdays ===
+Monday=Monday
+Tuesday=Tuesday
+Wednesday=Wednesday
+Thursday=Thursday
+Friday=Friday
+Saturday=Saturday
+Sunday=Sunday
+
+; === Months ===
+January=January
+February=February
+March=March
+April=April
+May=May
+June=June
+July=July
+August=August
+September=September
+October=October
+November=November
+December=December
+
+; === Chronophage Labels ===
+year=YEAR
+month=MONTH
+week=WEEK
+day=DAY
+
+; === Media Player skin
+; for info: song, album, artist
+playing=Playing
+from=From
+by=By
+; for controls (?)
+play=play
+pause=pause
+stop=stop
+previous=prev
+next=next
+shuffle=shuffle
+repeat=repeat
+
+; ===== Weather skin =====
+Currently=Currently
+Humidity=Humidity
+Visibility=Visibility
+
+; condition codes (meanings in English are here: http://developer.yahoo.com/weather/#codes)
+0=tornado
+1=tropical storm
+2=hurricane
+3=severe thunderstorms
+4=thunderstorms
+5=mixed rain and snow
+6=mixed rain and sleet
+7=mixed snow and sleet
+8=freezing drizzle
+9=drizzle
+10=freezing rain
+11=showers
+12=showers
+13=snow flurries
+14=light snow showers
+15=blowing snow
+16=snow
+17=hail
+18=sleet
+19=dust
+20=foggy
+21=haze
+22=smoky
+23=blustery
+24=windy
+25=cold
+26=cloudy
+27=mostly cloudy
+28=mostly cloudy
+29=partly cloudy
+30=partly cloudy
+31=clear
+32=sunny
+33=fair
+34=fair
+35=mixed rain and hail
+36=hot
+37=isolated thunderstorms
+38=scattered thunderstorms
+39=scattered thunderstorms
+40=scattered showers
+41=heavy snow
+42=scattered snow showers
+43=heavy snow
+44=partly cloudy
+45=thundershowers
+46=snow showers
+47=isolated thundershowers
+3200=not available
