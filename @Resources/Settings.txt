@@ -13,7 +13,7 @@ style=NORMAL
 
 scalar=3.0
 
-woeid=2365044
+woeid=44418
 
 unit=f
 
@@ -24,6 +24,19 @@ drive=C:
 hour=%#I
 
 player=CAD
+
+FeedURL1=https://news.google.com/news/feeds?output=rss
+FeedTitle1=Google News
+FeedURL2=http://feeds.gawker.com/lifehacker/full.xml
+FeedTitle2=LifeHacker
+FeedURL3=http://www.buzzfeed.com/index.xml
+FeedTitle3=BuzzFeed
+FeedURL4=http://feeds.washingtonpost.com/rss/homepage
+FeedTitle4=Washington Post
+FeedURL5=http://feeds.bbci.co.uk/news/rss.xml
+FeedTitle5=BBC Top Stories
+FeedURL6=http://feeds.reuters.com/reuters/topNews
+FeedTitle6=Reuters Top News
 
 ;The time, date, and weather skins use this value to determine font sizes
 ;Don't change it unless you know what you're doing!
