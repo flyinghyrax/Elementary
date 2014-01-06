@@ -1,6 +1,6 @@
 [Variables]
 ; ! For explanations of all these settings, please refer to the included README.
-; "...\Rainmeter\Skins\Elementary\ReadMe.rtf"
+; "...\Rainmeter\Skins\Elementary\README.pdf"
 ; (Or right click any Elementary skin, and select 
 ; "Elementary > Readme.ini" in the context menu.)
 
@@ -19,7 +19,7 @@ unit=f
 
 language=en
 
-drive=C:
+drive=C
 
 hour=%#I
 
