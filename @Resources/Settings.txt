@@ -13,15 +13,13 @@ style=NORMAL
 
 scalar=3.0
 
-location=rotterdam,nl
-
 woeid=2365044
 
 unit=f
 
 language=en
 
-drive=C
+drive=C:
 
 hour=%#I
 
