@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Click here to edit
+﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿Click here to edit!
 -Use ctrl+enter to insert a line break
 ﻿-You can change the size of this text area by hovering over the NOTES header, selecting the W or H option, and entering a new number.
 - "Quotes" don't break me!
