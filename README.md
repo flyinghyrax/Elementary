@@ -7,6 +7,7 @@ Some simple, clean [Rainmeter](http://rainmeter.net/cms/) skins, including:
  - Simple System skins tomonitor CPU, Memory, Network, and Hard Drive usage. 
  - A minimal Analog clock.
  - A modified version of [JSMorley](https://github.com/jsmorley)'s [YQLFeed](http://www.deviantart.com/art/YQLFeed-3-3-419596824) reader skin
+ - A notes skin based on [sa3er's Note Paper](http://www.deviantart.com/art/Note-Paper-1-1-392404729)
 
 You can get the .rmskin package from [Elementary's page on DeviantArt](http://flyinghyrax.deviantart.com/art/Elementary-Rainmeter-1-5-1-244031084).
  
@@ -69,6 +70,7 @@ You can check the translation files already included in the `...\Languages\` fol
 - The secondary font is [Futurist Fixed-Width][ffw] by WSI
 - The wallpaper which inspired these skins, and is used for the .rmskin banner image and preview image on DeviantArt is [Elementary by emats][ebe]
 - The feed reader skin is a modified version of [YQLFeed by JSMorley](http://www.deviantart.com/art/YQLFeed-3-3-419596824)
+- The Notes skin is based on [Note Paper by sa3er](http://www.deviantart.com/art/Note-Paper-1-1-392404729)
 - Weather data and feed normalization is provided by the [Yahoo! YQL API](http://developer.yahoo.com/yql/)
 - This file was written using [StackEdit.io][stackedit]
 [cg]: <https://en.wikipedia.org/wiki/Century_Gothic>
@@ -85,4 +87,3 @@ Feel free to contact me with questions or suggestions:
 [devart]: <http://flyinghyrax.deviantart.com/> "FlyingHyrax on DeviantArt"
 [forums]: <http://rainmeter.net/forum/> "Official Rainnmeter forums"
 [email]: <mailto:theflyinghyrax@gmail.com> "mailto:me"
-
