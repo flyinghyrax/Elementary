@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=$CHARSET$" />
+<style type="text/css">
+body { font-size: 11pt; }
+table { border-style: none; margin-left: -10pt;} 
+td { spacing: 10pt 2pt; padding: 1pt 10pt;}
+#databasetable_header { font-size: 12pt; font-weight: bold;}
+#resultstable_header { font-size: 12pt; font-weight: bold;}
+</style>
+<link rel="stylesheet" href="loc_res.css" type="text/css" />
+<title>$TOOLBARTITLE$</title>
+</head>
+<body>
+
+
+<div id="header">
+<h1>$TITLE$</h1>
+<ul>
+$IF[$INCLUDESUMMARY$]{<li id="head_results">$RESULTSSTRING$</li>}
+$IF[$INCLUDEDATE$]{<li id="head_date">$DATELABEL$ $DATE$ $TIME$</li>}
+$IF[$INCLUDEDESCRIPTION$]{<li id="head_description">$DESCRIPTION$</li>}
+$IF[$INCLUDEDBINFO$]{<li id="head_databases">$RESULTSFROMDATABASES$
+<table id="databasetable">
+<tr id="databasetable_header">
+</td><td>$DBNAMELABEL$</td><td>$DBCREATORLABEL$</td><td>$DBDESCRIPTIONLABEL$</td><td>$DBFILELABEL$</td></tr>
+$FOR[I=1:$NUM_DATABASES$]{
+	<tr><td>$GETDBNAME[$I$]</td><td>$GETDBCREATOR[$I$]</td><td>$GETDBDESCRIPTION[$I$]</td><td>$GETDBFILE[$I$]</td></tr>}
+</table></li>
+}
+</ul>
+</div>
+
+
+<div id="resultslist">
+<table id="resulttable">
+$IF[$INCLUDECOLUMNLABELS$]{
+<tr id="resultstable_header">
+$FOR[I=1:$NUM_SELECTEDDETAILS$]{<td>$GETDETAILNAME[$GETSELECTEDDETAIL[$I$]]</td>}
+</tr>}
+$FOR[I=1:$NUM_RESULTS$]{
+<tr>
+$FOR[J=1:$NUM_SELECTEDDETAILS$]{<td>$GETDETAIL[$I$,$GETSELECTEDDETAIL[$J$]]</td>}
+</tr>}
+</table>
+</div>
+</body>
+</html>

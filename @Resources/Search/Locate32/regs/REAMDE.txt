@@ -1,0 +1,53 @@
+Regs directory contains following files:
+
+
+DeleteDatabaseFile - Allow.reg:
+DeleteDatabaseFile - Disallow.reg:
+
+Normally when a database is deleted in Databases settings tab, Locate32 will ask if 
+you want to also delete the actual database file. If you want to prevent this, 
+merge the "DeleteDatabaseFile - Disallow.reg" registry patch. Merge 
+"DeleteDatabaseFile - Allow.reg" to restore default this behauviour. 
+
+
+
+ResultListDelayTimes.reg:
+
+It is possible that "Stop" and other buttons in Locate dialog does not respond if you use other 
+view mode than "Details" in the results list. You can prevent this by merging this registry patch.
+You can also modify "WaitEvery30" and "WaitEvery60" values in the registry patch valued to obtain 
+the best performance. The value of WaitEvery30 (or WaitEvery60) means that how many millisecons is 
+waited after 30 (or 60) items are added to the results list. 
+
+
+
+Search protocol - Register.reg
+Search protocol - Unregister.reg
+
+In Windows Vista SP1 it's possible to specify default desktop search application using 
+"Default programs" (Control Panel). Before you can use Locate32 as the default desktop 
+search application, you need to register Locate32 "search:" protocol. This protocol can
+be registered/unregistered using these registry patch files.
+
+To make Locate32 as the default desktop search application, do the following:
+1. Open "Search protocol - Register.reg" file to text editor (e.g. Notepad) and check
+   that Locate32 directory is correct (default is C:\Program Files\Locate).
+2. Merge "Search protocol - Register.reg" file by double clicking it 
+3. Open "Default Programs", choose "Associate a file type or protocol with a program".
+   Find a protocol "SEARCH" and choose "Change Program" (you can also double click the 
+   protocol). Choose "Locate32".
+
+Note that when Locate32 is the default desktop search application, you don't need to 
+assign Win+F, F3 and Ctrl+F keys (as keyboard hooks) in Locate32 to open Locate32 
+dialog using those keys. These keys will open Locate32 dialog even if locate32.exe is 
+not running. 
+
+
+
+
+
+
+
+
+
+
