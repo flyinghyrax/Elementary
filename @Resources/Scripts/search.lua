@@ -2,7 +2,7 @@ locate32, dbs = nil, nil
 
 function Initialize()
 	locate32 = SKIN:MakePathAbsolute(SKIN:GetVariable('PathToLocate32', '#@#Search\Locate32\locate32.exe'))
-	dbs = SKIN:MakePathAbsolute(SKIN:GetVariable('PathToDB', '#@#Search\Locate32\index.dbs'))
+	dbs = SKIN:MakePathAbsolute(SKIN:GetVariable('PathToIndex', '#@#Search\Locate32\index.dbs'))
 end
 
 function Search(input)
