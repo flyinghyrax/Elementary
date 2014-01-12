@@ -6,35 +6,39 @@
 
 font=Century Gothic
 font2=Futurist Fixed-Width
-
-color=255,255,255,180
-
 style=NORMAL
 
-scalar=3.0
+color=255,255,255,180
+highlight=221,225,164,200
 
 woeid=44418
-
 unit=f
 
 language=en
 
 drive=C:
 
+player=CAD
+
 hour=%#I
 
-player=CAD
+scalar=3.0
 
 FeedURL1=https://news.google.com/news/feeds?output=rss
 FeedTitle1=Google News
+
 FeedURL2=http://feeds.gawker.com/lifehacker/full.xml
 FeedTitle2=LifeHacker
+
 FeedURL3=http://www.buzzfeed.com/index.xml
 FeedTitle3=BuzzFeed
+
 FeedURL4=http://feeds.washingtonpost.com/rss/homepage
 FeedTitle4=Washington Post
+
 FeedURL5=http://feeds.bbci.co.uk/news/rss.xml
 FeedTitle5=BBC Top Stories
+
 FeedURL6=http://feeds.reuters.com/reuters/topNews
 FeedTitle6=Reuters Top News
 

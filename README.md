@@ -23,15 +23,15 @@ Elementary's user preferences are in the file `...\Skins\Elementary\@Resources\S
 Settings are given in `Key=Value` pairs; to change a setting, modify the portion after the `=` sign, save the file, and refresh any open Elementary skins.
 
 - **font, font2** | The primary and secondary fonts used by the skins.  You can use any installed font, just keep in mind that the positions of the skin elements are optimized for the two default fonts. | [More information on Fonts in Rainmeter][fontdoc] | [JSMorley's handy RainFont utility][rainfont]
-- **color** | The color of the skins, given in Decimal (`rrr,ggg,bbb,aaa`) or Hexadecimal (`RrGgBbAa`) format.  The default is `255,255,255,80`; for dark skins, try `0,0,0,200` and experiment from there. | [More information on Color Codes in Rainmeter][colordoc]
 - **style** | Sets the attributes of the text in the skins.  Valid values are `NORMAL`, `BOLD`, `ITALIC`, and `BOLDITALIC`.
-- **scalar** | Scales the size of the analog clock.  A larger number will increase the size; a smaller number will decrease it.  I recommend staying between 1.5 and 5.0.
+- **color, highlight** | The primary and highlight colors for the skins, given in Decimal (`rrr,ggg,bbb,aaa`) or Hexadecimal (`RrGgBbAa`) format.  The default is `255,255,255,80`; for dark skins, try `0,0,0,200` and experiment from there.  By default, `highlight` is set to `#color#`, meaning the highlight color will match the main color.  Simply change `highlight` to another color value to enable it. | [More information on Color Codes in Rainmeter][colordoc]
 - **woeid** | The Yahoo! WOEID location code for the Weather skin.  You can lookup your WOEID [here][rosswoeid].
 - **unit** | Changes the units used in the Weather skin.  Use `f` for English and `c` for Metric.
 - **language** | The two letter [ISO 639-1 code][iso639] for your preferred language.  Available language files can be viewed in `...\Elementary\@Resources\Languages\`.
 - **drive** | The letter of the hard drive to monitor with the system skin.
-- **hour** | The format code for the hour in the Time skins.  For a 12-hour clock, use `%#I`; for a 24-hour clock, use `%#H`.  To add leading zeros, remove the `#` sign (i.e., `%I` will give you '08' instead of '8').
 - **player** | Music player for the NowPlaying skin.  You can view a list of supported players and their respective `PlayerName` values in the [documentation for the NowPlaying plugin][nowplayingdoc].
+- **hour** | The format code for the hour in the Time skins.  For a 12-hour clock, use `%#I`; for a 24-hour clock, use `%#H`.  To add leading zeros, remove the `#` sign (i.e., `%I` will give you '08' instead of '8').
+- **scalar** | Scales the size of the analog clock.  A larger number will increase the size; a smaller number will decrease it.  I recommend staying between 1.5 and 5.0.
 - **FeedURLN** | The URLs for the RSS/Atom feeds in the YQLFeed skin.
 - **FeedTitleN** | The titles for the feeds.
 [fontdoc]: <http://docs.rainmeter.net/tips/fonts-guide> "Guide to fonts in Rainmeter"

@@ -18,7 +18,7 @@ X=0
 Y=0
 W=60 
 H=21
-Command1=[!SetOption measureScript temp """$UserInput$"""] FontSize=#noteInputFontSize# X=[meterText:X] Y=[meterText:Y] W=#width# H=#height#
+Command1=[!SetOption measureScript temp """$UserInput$"""] FontSize=#InputFontSize# X=[meterText:X] Y=[meterText:Y] W=#width# H=#height#
 Command2=[!CommandMeasure measureScript writeToFile()][!Refresh #CURRENTCONFIG#]
 Command3=[!WriteKeyValue Variables width $UserInput$ "#CURRENTPATH##CURRENTFILE#"][!Refresh #CURRENTCONFIG#] DefaultValue=#width#
 Command4=[!WriteKeyValue Variables height $UserInput$ "#CURRENTPATH##CURRENTFILE#"][!Refresh #CURRENTCONFIG#] DefaultValue=#height#
