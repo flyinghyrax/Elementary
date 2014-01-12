@@ -9,8 +9,6 @@ Some simple, clean [Rainmeter](http://rainmeter.net/cms/) skins, including:
  - A modified version of [JSMorley](https://github.com/jsmorley)'s [YQLFeed](http://www.deviantart.com/art/YQLFeed-3-3-419596824) reader skin
  - A Notes skin
  - File and Web search skins, using [Locate32](http://locate32.cogit.net/) and [DuckDuckGo](https://duckduckgo.com/about), respectively.
-
-You can get the .rmskin package from [Elementary's page on DeviantArt](http://flyinghyrax.deviantart.com/art/Elementary-Rainmeter-1-5-1-244031084).
  
 ### License
 This work is licensed under the [Creative Commons Attribution Non-Commercial Share-Alike  4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -28,7 +26,7 @@ Settings are given in `Key=Value` pairs; to change a setting, modify the portion
 - **woeid** | The Yahoo! WOEID location code for the Weather skin.  You can lookup your WOEID [here][rosswoeid].
 - **unit** | Changes the units used in the Weather skin.  Use `f` for English and `c` for Metric.
 - **language** | The two letter [ISO 639-1 code][iso639] for your preferred language.  Available language files can be viewed in `...\Elementary\@Resources\Languages\`.
-- **drive** | The letter of the hard drive to monitor with the system skin.
+- **drive** | The letter of the hard drive to monitor with the system skin, in the form `C:`
 - **player** | Music player for the NowPlaying skin.  You can view a list of supported players and their respective `PlayerName` values in the [documentation for the NowPlaying plugin][nowplayingdoc].
 - **hour** | The format code for the hour in the Time skins.  For a 12-hour clock, use `%#I`; for a 24-hour clock, use `%#H`.  To add leading zeros, remove the `#` sign (i.e., `%I` will give you '08' instead of '8').
 - **scalar** | Scales the size of the analog clock.  A larger number will increase the size; a smaller number will decrease it.  I recommend staying between 1.5 and 5.0.
@@ -75,10 +73,12 @@ You can check the translation files already included in the `...\Languages\` fol
 - The Notes skin is based on [Note Paper by sa3er](http://www.deviantart.com/art/Note-Paper-1-1-392404729)
 - Weather data and feed normalization is provided by the [Yahoo! YQL API](http://developer.yahoo.com/yql/)
 - This file was written using [StackEdit.io][stackedit]
+- [S. D. G.][sdg]
 [cg]: <https://en.wikipedia.org/wiki/Century_Gothic>
 [ffw]: <http://www.dafont.com/futurist-fixed.font>
 [ebe]: <http://interfacelift.com/wallpaper/details/1919/elementary.html>
 [stackedit]: <https://chrome.google.com/webstore/detail/stackedit/iiooodelglhkcpgbajoejffhijaclcdg>
+[sdg]: <http://en.wikipedia.org/wiki/Soli_Deo_gloria>
 
 ### Contact
 Feel free to contact me with questions or suggestions:
