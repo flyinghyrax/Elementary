@@ -9,7 +9,7 @@ font2=Futurist Fixed-Width
 style=NORMAL
 
 color=255,255,255,180
-highlight=221,225,164,200
+highlight=#color#
 
 woeid=44418
 unit=f
