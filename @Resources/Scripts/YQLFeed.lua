@@ -1,7 +1,5 @@
 function Initialize()
 	newMinutes = tonumber(SKIN:GetVariable('NewMinutes'))
-	-- newColor = SKIN:GetVariable('NewEntryColor')
-	-- oldColor = SKIN:GetVariable('OldEntryColor')
 end
 
 function CheckNew(measureArg, meterArg, measureAgeArg)
