@@ -4,8 +4,9 @@ Some simple, clean [Rainmeter](http://rainmeter.net/cms/) skins, including:
  - The original Time, Date, and 'Chronophage' skins  
  - A Weather skin with current conditions and 3-day forecast
  - NowPlaying skins to show song info and control your media player 
- - Simple System skins tomonitor CPU, Memory, Network, and Hard Drive usage. 
- - An Analog clock.
+ - Simple System skins to monitor CPU, Memory, Network, and Hard Drive usage
+ - A system uptime skin
+ - An Analog clock
  - A modified version of [JSMorley](https://github.com/jsmorley)'s [YQLFeed](http://www.deviantart.com/art/YQLFeed-3-3-419596824) reader skin
  - A Notes skin
  - File and Web search skins, using [Locate32](http://locate32.cogit.net/) and [DuckDuckGo](https://duckduckgo.com/about), respectively.
@@ -67,10 +68,10 @@ You can check the translation files already included in the `...\Languages\` fol
 ### Credits
 - The primary font is [Century Gothic][cg] by Monotype Imaging
 - The secondary font is [Futurist Fixed-Width][ffw] by WSI
-- The wallpaper which inspired these skins, and is used for the .rmskin banner image and preview image on DeviantArt is [Elementary by emats][ebe]
-- The feed reader skin is a modified version of [YQLFeed by JSMorley](http://www.deviantart.com/art/YQLFeed-3-3-419596824)
-- The File Search skins are based on [SearchDrive by JSMorley](http://rainmeter.net/forum/viewtopic.php?f=27&t=17181)
-- The Notes skin is based on [Note Paper by sa3er](http://www.deviantart.com/art/Note-Paper-1-1-392404729)
+- The wallpaper which inspired these skins, and is used for the .rmskin banner image and other preview images is [Elementary by emats][ebe]
+- The feed reader skin is a modified version of [YQLFeed](http://www.deviantart.com/art/YQLFeed-3-3-419596824) by JSMorley
+- The file search skin is a modified version of [SearchDrive](http://rainmeter.net/forum/viewtopic.php?f=27&t=17181) by JSMorley
+- The notes skin is based on [Note Paper](http://www.deviantart.com/art/Note-Paper-1-1-392404729) by sa3er
 - Weather data and feed normalization is provided by the [Yahoo! YQL API](http://developer.yahoo.com/yql/)
 - This file was written using [StackEdit.io][stackedit]
 - [S. D. G.][sdg]
