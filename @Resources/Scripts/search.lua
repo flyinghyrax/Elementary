@@ -6,7 +6,7 @@ function Initialize()
 end
 
 function Search(input)
-	if input:find('^!locate ') then
+	if input:find('^!locate .+') then
 		SKIN:Bang(string.format('%q -d %q -r -- %s', locate32, dbs, input:match('^!locate (.+)')))
 	else
 		SKIN:Bang(string.format('"https://duckduckgo.com/?q=%s"', input))
