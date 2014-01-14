@@ -12,11 +12,11 @@ function CheckNew(measureArg, meterArg, measureAgeArg)
 	local dayText = timeDifferenceFormat.days == 1 and "day" or "days"
 	
 	if timeDifference > 86400 then
-		ageDisplay = timeDifferenceFormat.days..' '..dayText..' '..timeDifferenceFormat.hours..' '..hourText..' '..timeDifferenceFormat.mins..' '..minText..' ago'
+		ageDisplay = timeDifferenceFormat.days..' '..dayText..' '..timeDifferenceFormat.hours..' '..hourText..' '..timeDifferenceFormat.mins..' '..minText
 	elseif timeDifference < 3600 then
-		ageDisplay = timeDifferenceFormat.mins..' '..minText..' ago'
+		ageDisplay = timeDifferenceFormat.mins..' '..minText
 	else	
-		ageDisplay = timeDifferenceFormat.hours..' '..hourText..' '..timeDifferenceFormat.mins..' '..minText..' ago'
+		ageDisplay = timeDifferenceFormat.hours..' '..hourText..' '..timeDifferenceFormat.mins..' '..minText
 	end
 
 	SKIN:Bang('!SetOption', measureAgeArg, 'Format', ageDisplay)	

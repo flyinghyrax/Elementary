@@ -26,7 +26,10 @@ Settings are given in `Key=Value` pairs; to change a setting, modify the portion
 - **color, highlight** | The primary and highlight colors for the skins, given in Decimal (`rrr,ggg,bbb,aaa`) or Hexadecimal (`RrGgBbAa`) format.  The default is `255,255,255,80`; for dark skins, try `0,0,0,200` and experiment from there.  By default, `highlight` is set to `#color#`, meaning the highlight color will match the main color.  Simply change `highlight` to another color value to enable it. | [More information on Color Codes in Rainmeter][colordoc]
 - **woeid** | The Yahoo! WOEID location code for the Weather skin.  You can lookup your WOEID [here][rosswoeid].
 - **unit** | Changes the units used in the Weather skin.  Use `f` for English and `c` for Metric.
-- **language** | The two letter [ISO 639-1 code][iso639] for your preferred language.  Available language files can be viewed in `...\Elementary\@Resources\Languages\`.
+- **language** | The two letter [ISO 639-1 code][iso639] for your preferred language.  Available language files can be viewed in `...\Elementary\@Resources\Languages\`.  Currently included:
+    - English (**en**)
+    - Russian/??????? ???? (**ru**)
+    - German/Deutsch (**de**)
 - **drive** | The letter of the hard drive to monitor with the system skin, in the form `C:`
 - **player** | Music player for the NowPlaying skin.  You can view a list of supported players and their respective `PlayerName` values in the [documentation for the NowPlaying plugin][nowplayingdoc].
 - **hour** | The format code for the hour in the Time skins.  For a 12-hour clock, use `%#I`; for a 24-hour clock, use `%#H`.  To add leading zeros, remove the `#` sign (i.e., `%I` will give you '08' instead of '8').
