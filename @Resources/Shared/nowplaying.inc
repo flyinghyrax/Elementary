@@ -1,48 +1,60 @@
 ; measures for media_*.ini skins in the NowPLaying folder
 
-[measureTitle]
+[measureFilename]
 Measure=Plugin
 Plugin=NowPlaying.dll
 PlayerName=#player#
-PlayerType=Title
+PlayerType=File
 DisableLeadingZero=1
-Substitute="":"#not_playing#"
+TrackChangeAction=[!UpdateMeasureGroup info][!UpdateMeter meterInfo]
+RegExpSubstitute=1
+Substitute=".*\\(.+)$":"\1","^$":"#stopped_closed#"
+
+[measureTitle]
+Measure=Plugin
+Plugin=NowPlaying.dll
+PlayerName=[measureFilename]
+PlayerType=Title
 Group=info
+DynamicVariables=1
+Substitute="":"[measureFilename]"
 
 [measureAlbum]
 Measure=Plugin
 Plugin=NowPlaying.dll
-PlayerName=[measureTitle]
+PlayerName=[measureFilename]
 PlayerType=Album
-Substitute="":"#not_playing#"
 Group=info
+DynamicVariables=1
+Substitute="":"[measureFilename]"
 
 [measureArtist]
 Measure=Plugin
 Plugin=NowPlaying.dll
-PlayerName=[measureTitle]
+PlayerName=[measureFilename]
 PlayerType=Artist
-Substitute="":"#not_playing#"
 Group=info
+DynamicVariables=1
+Substitute="":"[measureFilename]"
 
 [measurePosition]
 Measure=Plugin
 Plugin=NowPlaying.dll
-PlayerName=[measureTitle]
+PlayerName=[measureFilename]
 PlayerType=Position
 Group=info
 
 [measureDuration]
 Measure=Plugin
 Plugin=NowPlaying.dll
-PlayerName=[measureTitle]
+PlayerName=[measureFilename]
 PlayerType=Duration
 Group=info
 
 [measureState]
 Measure=Plugin
 Plugin=NowPlaying.dll
-PlayerName=[measureTitle]
+PlayerName=[measureFilename]
 PlayerType=State
 IfAboveValue=1
 IfBelowValue=1
