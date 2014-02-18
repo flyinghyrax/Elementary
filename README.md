@@ -32,7 +32,7 @@ Settings are given in `Key=Value` pairs; to change a setting, modify the portion
 | **highlight** | An optional highlight color.  By default, this is 'turned off' by setting it to `#color#`, so that the highlight color will match the main color.  Simply change this to a valid color code to enable the highlight color. | `#color#`
 | **woeid** | The Yahoo! WOEID location code for the weather skin.  You can lookup your WOEID [here][rosswoeid]. | `44418` (London)
 | **unit** | Changes the units used in the Weather skin.  Use `f` for English and `c` for Metric. | `f`
-| **language** | The two letter [ISO 639-1 code][iso639] for your preferred language.  Available language files can be viewed in `...\Elementary\@Resources\Languages\`.  Current options are `en`, `ru`, and `de`. | `en`
+| **language** | The two letter [ISO 639-1 code][iso639] for your preferred language.  Available language files can be viewed in `...\Elementary\@Resources\Languages\`.  Current options are `en`, `fr`, `ru`, and `de`. | `en`
 | **drive** | The letter of the hard drive to monitor with the system skin | `C:`
 | **player** | Music player for the NowPlaying skin.  You can view a list of supported players and their respective `PlayerName` values in the [documentation for the NowPlaying plugin][nowplayingdoc]. | `CAD`
 | **hour** | The format code for the hour in the Time skins.  For a 12-hour clock, use `%#I`; for a 24-hour clock, use `%#H`.  To add leading zeros, remove the `#` sign (i.e., `%I` will give you '08' instead of '8'). | `%#I`
@@ -78,6 +78,7 @@ Please check the translation files already included in the `...\Languages\` fold
 - smurfier: Fixed, optimized, and generally improved Lua code
 - amc242: Russian translation
 - mothergarage: German translation
+- Skymil: French translation
 [jsm-yqlfeed]: <http://www.deviantart.com/art/YQLFeed-3-3-419596824>
 [jsm-searchdrive]: <http://rainmeter.net/forum/viewtopic.php?f=27&t=17181>
 [notepaper]: <http://www.deviantart.com/art/Note-Paper-1-1-392404729>
