@@ -79,6 +79,7 @@ Please check the translation files already included in the `...\Languages\` fold
 - amc242: Russian translation
 - mothergarage: German translation
 - Skymil: French translation
+- Requios: Dutch translation
 [jsm-yqlfeed]: <http://www.deviantart.com/art/YQLFeed-3-3-419596824>
 [jsm-searchdrive]: <http://rainmeter.net/forum/viewtopic.php?f=27&t=17181>
 [notepaper]: <http://www.deviantart.com/art/Note-Paper-1-1-392404729>
@@ -88,7 +89,6 @@ Please check the translation files already included in the `...\Languages\` fold
 - The secondary font is [Futurist Fixed-Width][ffw] by WSI
 - The wallpaper which inspired these skins, and is used for the .rmskin banner image and other preview images is [Elementary by emats][ebe]
 - Weather data and feed normalization is provided by the [Yahoo! YQL API][yql]
-- This file was written using [StackEdit.io][stackedit]
 - [S. D. G.][sdg]
 [cg]: <https://en.wikipedia.org/wiki/Century_Gothic>
 [ffw]: <http://www.dafont.com/futurist-fixed.font>
