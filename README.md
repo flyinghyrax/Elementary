@@ -32,7 +32,7 @@ Settings are given in `Key=Value` pairs; to change a setting, modify the portion
 | **highlight** | An optional highlight color.  By default, this is 'turned off' by setting it to `#color#`, so that the highlight color will match the main color.  Simply change this to a valid color code to enable the highlight color. | `#color#`
 | **woeid** | The Yahoo! WOEID location code for the weather skin.  You can lookup your WOEID [here][rosswoeid]. | `44418` (London)
 | **unit** | Changes the units used in the Weather skin.  Use `f` for English and `c` for Metric. | `f`
-| **language** | The two letter [ISO 639-1 code][iso639] for your preferred language.  Available language files can be viewed in `...\Elementary\@Resources\Languages\`.  Current options are `en`, `fr`, `ru`, and `de`. | `en`
+| **language** | The two letter [ISO 639-1 code][iso639] for your preferred language.  Available language files can be viewed in `...\Elementary\@Resources\Languages\`.  Current options are `en`, `fr`, `ru`, `de`, and `nl`. | `en`
 | **drive** | The letter of the hard drive to monitor with the system skin | `C:`
 | **player** | Music player for the NowPlaying skin.  You can view a list of supported players and their respective `PlayerName` values in the [documentation for the NowPlaying plugin][nowplayingdoc]. | `CAD`
 | **hour** | The format code for the hour in the Time skins.  For a 12-hour clock, use `%#I`; for a 24-hour clock, use `%#H`.  To add leading zeros, remove the `#` sign (i.e., `%I` will give you '08' instead of '8'). | `%#I`
@@ -66,6 +66,7 @@ Please check the translation files already included in the `...\Languages\` fold
 
  - Send a Pull Request on [GitHub][gh].  Feel free to [fork the Elementary repository][fork], add your translation file, and [send a pull request][pullreq] so I can merge your translation into the main repo.  (This is the preferred method as it makes it much easier for me to keep track of the files and who did what.)
  - Email me (see the "Contact" section below).  Just attach your new translation's .txt file, and be sure to indicate how you would like to be credited (real name or username, the URL for your web site or DeviantArt page, that sort of thing).
+ 
 [iso639]: <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes> "Wikipedia: List of ISO 639-1 codes"
 [unicode]: <http://docs.rainmeter.net/tips/unicode-in-rainmeter> "Unicode in Rainmeter"
 [gh]: <https://github.com/FlyingHyrax/Elementary> "Elementary on Github"
@@ -80,6 +81,7 @@ Please check the translation files already included in the `...\Languages\` fold
 - mothergarage: German translation
 - Skymil: French translation
 - Requios: Dutch translation
+
 [jsm-yqlfeed]: <http://www.deviantart.com/art/YQLFeed-3-3-419596824>
 [jsm-searchdrive]: <http://rainmeter.net/forum/viewtopic.php?f=27&t=17181>
 [notepaper]: <http://www.deviantart.com/art/Note-Paper-1-1-392404729>
@@ -90,6 +92,7 @@ Please check the translation files already included in the `...\Languages\` fold
 - The wallpaper which inspired these skins, and is used for the .rmskin banner image and other preview images is [Elementary by emats][ebe]
 - Weather data and feed normalization is provided by the [Yahoo! YQL API][yql]
 - [S. D. G.][sdg]
+
 [cg]: <https://en.wikipedia.org/wiki/Century_Gothic>
 [ffw]: <http://www.dafont.com/futurist-fixed.font>
 [ebe]: <http://interfacelift.com/wallpaper/details/1919/elementary.html>
@@ -103,6 +106,7 @@ Feel free to contact me with questions or suggestions:
 - [On DeviantArt][devart]
 - [Rainmeter Forums][forums]
 - [Email me][email]
+
 [devart]: <http://flyinghyrax.deviantart.com/> "FlyingHyrax on DeviantArt"
 [forums]: <http://rainmeter.net/forum/> "Official Rainnmeter forums"
 [email]: <mailto:theflyinghyrax@gmail.com> "mailto:me"

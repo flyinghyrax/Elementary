@@ -1,0 +1,39 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    margin: 5% 10%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    border: 1px solid lightgrey;
+}
+
+code {
+    padding: 1px 3px;
+    background-color: #F5F5F5;
+}
+
+tr.even {
+    background-color: #F8F8F8;
+}
+
+tr.even code {
+    background-color: #EEEEEE;
+}
+
+a {
+    color: #4183C4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #3775B3;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
