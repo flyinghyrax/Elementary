@@ -5,15 +5,15 @@ end
 function Update()
 	local seconds = upt_measure:GetValue()
 	local time_table = BreakSeconds(seconds)
-	
+
 	local dayText = time_table.days > 1 and 'days' or 'day'
 	local hourText = time_table.hours > 1 and 'hours' or 'hour'
 	local minText = time_table.mins > 1 and 'minutes' or 'minute'
 	local secText = time_table.secs > 1 and 'seconds' or 'second'
-	
+
 	if time_table.days > 0 then
 		return string.format('%d %s %d %s', time_table.days, dayText, time_table.hours, hourText)
-	elseif time_table.hours > 0 then	
+	elseif time_table.hours > 0 then
 		return string.format('%d %s %d %s', time_table.hours, hourText, time_table.mins, minText)
 	elseif time_table.mins > 0 then
 		return string.format('%d %s %d %s', time_table.mins, minText, time_table.secs, secText)

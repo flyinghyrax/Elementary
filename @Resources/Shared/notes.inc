@@ -16,7 +16,7 @@ FontSize=12
 FocusDismiss=1
 X=0
 Y=0
-W=60 
+W=60
 H=21
 Command1=[!SetOption measureScript temp """$UserInput$"""] FontSize=#InputFontSize# X=[meterText:X] Y=[meterText:Y] W=#width# H=#height#
 Command2=[!CommandMeasure measureScript writeToFile()][!Refresh #CURRENTCONFIG#]
