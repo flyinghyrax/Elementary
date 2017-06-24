@@ -24,24 +24,6 @@ hour=%#I
 
 scalar=3.0
 
-FeedURL1=https://news.google.com/news/feeds?output=rss
-FeedTitle1=Google News
-
-FeedURL2=http://feeds.gawker.com/lifehacker/full.xml
-FeedTitle2=LifeHacker
-
-FeedURL3=http://feeds.washingtonpost.com/rss/homepage
-FeedTitle3=Washington Post
-
-FeedURL4=http://feeds.bbci.co.uk/news/rss.xml
-FeedTitle4=BBC Top Stories
-
-FeedURL5=http://feeds.reuters.com/reuters/topNews
-FeedTitle5=Reuters Top News
-
-FeedURL6=http://news.yandex.ru/index.rss
-FeedTitle6=Яндекс: Новости
-
 ;The time, date, and weather skins use this value to determine font sizes
 ;Don't change it unless you know what you're doing!
 phi=0.618
