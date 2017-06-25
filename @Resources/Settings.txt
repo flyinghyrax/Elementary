@@ -22,8 +22,6 @@ player=CAD
 
 hour=%#I
 
-scalar=3.0
-
 ;The time, date, and weather skins use this value to determine font sizes
 ;Don't change it unless you know what you're doing!
 phi=0.618
