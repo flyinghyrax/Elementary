@@ -16,8 +16,6 @@ unit=f
 
 language=en
 
-drive=C:
-
 player=CAD
 
 hour=%#I
