@@ -11,9 +11,6 @@ style=NORMAL
 color=255,255,255,180
 highlight=#color#
 
-woeid=44418
-unit=f
-
 language=en
 
 player=CAD
