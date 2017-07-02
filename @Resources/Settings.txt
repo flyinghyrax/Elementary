@@ -13,8 +13,6 @@ highlight=#color#
 
 language=en
 
-player=CAD
-
 ;The time, date, and weather skins use this value to determine font sizes
 ;Don't change it unless you know what you're doing!
 phi=0.618
