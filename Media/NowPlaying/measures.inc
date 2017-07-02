@@ -6,7 +6,7 @@ Plugin=NowPlaying.dll
 PlayerName=#player#
 PlayerType=File
 DisableLeadingZero=1
-TrackChangeAction=[!UpdateMeasureGroup info][!UpdateMeter meterInfo]
+TrackChangeAction=[!UpdateMeasureGroup info][!UpdateMeter info]
 RegExpSubstitute=1
 Substitute=".*\\(.+)$":"\1","^$":"#stopped_closed#"
 
@@ -59,9 +59,9 @@ PlayerType=State
 IfAboveValue=1
 IfBelowValue=1
 IfEqualValue=1
-IfAboveAction=[!SetOption meterPlayPause Text " #*play*#"][!UnpauseMeasure measureTimer]
-IfEqualAction=[!SetOption meterPlayPause Text " #*pause*#"][!UnpauseMeasure measureTimer]
-IfBelowAction=[!SetOption meterPlayPause Text " #*play*#"][!PauseMeasure measureTimer]
+IfAboveAction=[!SetOption playPause Text " #*play*#"][!UnpauseMeasure measureTimer]
+IfEqualAction=[!SetOption playPause Text " #*pause*#"][!UnpauseMeasure measureTimer]
+IfBelowAction=[!SetOption playPause Text " #*play*#"][!PauseMeasure measureTimer]
 
 [measureTimer]
 Measure=Calc
