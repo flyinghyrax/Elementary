@@ -1,10 +1,10 @@
 [Rainmeter]
 ContextTitle="[msrRamContextString]"
-ContextAction=[!WriteKeyValue Variables showFreeMem (abs(#showFreeMem#-1)) "#CURRENTPATH#system.inc"][!Refresh #CURRENTCONFIG#]
+ContextAction=[!WriteKeyValue Variables showFreeMem (abs(#showFreeMem#-1)) "#CURRENTPATH#shared.inc"][!Refresh #CURRENTCONFIG#]
 ContextTitle2="[msrDiskContextString]"
-ContextAction2=[!WriteKeyValue Variables showUsedDisk (abs(#showUsedDisk#-1)) "#CURRENTPATH#system.inc"][!Refresh #CURRENTCONFIG#]
+ContextAction2=[!WriteKeyValue Variables showUsedDisk (abs(#showUsedDisk#-1)) "#CURRENTPATH#shared.inc"][!Refresh #CURRENTCONFIG#]
 ContextTitle3="Edit hard drive letter"
-ContextAction3=["#CURRENTPATH#system.inc"]
+ContextAction3=["#CURRENTPATH#shared.inc"]
 
 ;           _   _   _                  __   __
 ;  ___  ___| |_| |_(_)_ __   __ _ ___  \ \  \ \
