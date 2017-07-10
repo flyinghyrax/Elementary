@@ -1,6 +1,6 @@
 [Rainmeter]
 ContextTitle="Change to [mNextHourString]-hour"
-ContextAction=[!WriteKeyValue Variables use24hours (abs(#use24hours#-1)) "#CURRENTPATH#time.inc"][!Refresh]
+ContextAction=[!WriteKeyValue Variables use24hours (abs(#use24hours#-1)) "#CURRENTPATH#shared.inc"][!Refresh]
 
 ;           _   _   _                  __   __
 ;  ___  ___| |_| |_(_)_ __   __ _ ___  \ \  \ \
