@@ -5,6 +5,5 @@ function url_encode(str)
         function (c) return string.format ("%%%02X", string.byte(c)) end)
     str = string.gsub (str, " ", "+")
   end
-  print("Returning " .. str)
   return str
 end
